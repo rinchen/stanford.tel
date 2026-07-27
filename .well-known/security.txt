@@ -1,0 +1,7 @@
+# security.txt
+
+Contact: mailto:joey@stanford.tel
+Expires: 2035-12-31T12:20
+Preferred-Languages: en
+Canonical: http://stanford.tel/.well-known/security.txt
+
