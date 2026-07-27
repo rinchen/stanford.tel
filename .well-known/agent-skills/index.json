@@ -5,14 +5,14 @@
       "name": "hermes-radicle",
       "type": "skill-md",
       "description": "Use this skill when working with Radicle repositories for peer-to-peer Git collaboration — `rad init`, `rad clone`, patches, issues, node ops, sync, remotes, and session repo detection.",
-      "url": "/.well-known/skills/hermes-radicle/SKILL.md",
+      "url": "/.well-known/agent-skills/hermes-radicle/SKILL.md",
       "digest": "sha256:3250a9c8056c08c5d754cecba7cf49fa28649c58157be4a9ee8106d686b4d092"
     },
     {
       "name": "hermes-ngit",
       "type": "skill-md",
       "description": "Use this skill when working with Nostr-based Git repositories (ngit / gitworkshop.dev) for decentralized, permissionless code hosting — `ngit init`, `ngit sync`, `ngit send`, `ngit issue`, `ngit pr`, and native `git push`/`git clone` against nostr:// remotes.",
-      "url": "/.well-known/skills/hermes-ngit/SKILL.md",
+      "url": "/.well-known/agent-skills/hermes-ngit/SKILL.md",
       "digest": "sha256:fe5c6ce9e0cd87990d75f44f33d76bde2427d58c807072373b1a743ec692bcca"
     }
   ]
