@@ -1,0 +1,20 @@
+# See https://pre-commit.com for more
+# This repo lints HTML on every commit via HTMLHint (bundled by the nodejs mirror).
+repos:
+  # HTMLHint — static HTML linter. `htmlhint` is installed automatically (nodeenv),
+  # so no manual npm setup is required. Rules live in .htmlhintrc at repo root.
+  - repo: https://github.com/Lucas-C/pre-commit-hooks-nodejs
+    rev: v1.1.2
+    hooks:
+      - id: htmlhint
+        # Pin the linter version for reproducible runs.
+        additional_dependencies: ['htmlhint@1.9.2']
+
+  # Universal hygiene fixers — safe for HTML and catch the usual whitespace/EOF slips.
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: end-of-file-fixer
+        types: [html]
+      - id: trailing-whitespace
+        types: [html]
