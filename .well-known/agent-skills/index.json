@@ -14,6 +14,13 @@
       "description": "Use this skill when working with Nostr-based Git repositories (ngit / gitworkshop.dev) for decentralized, permissionless code hosting — `ngit init`, `ngit sync`, `ngit send`, `ngit issue`, `ngit pr`, and native `git push`/`git clone` against nostr:// remotes.",
       "url": "https://raw.githubusercontent.com/rinchen/hermes-ngit/main/SKILL.md",
       "digest": "sha256:b249c475fc97c46f6728502f82b3094d1b57e0f033dbf9f98384da66cd065e09"
+    },
+    {
+      "name": "hermes-model-bench",
+      "type": "skill-md",
+      "description": "Use this skill when you need to compare multiple LLM models on real prompts rather than specs — run identical queries through each via `hermes chat`, capture outputs, score them on a weighted rubric, and produce a model recommendation or replacement.",
+      "url": "https://raw.githubusercontent.com/rinchen/hermes-model-bench/main/SKILL.md",
+      "digest": "sha256:0e6151f3a0fc4516935d41e5dbc5431b0ab1de6169fcbf22648a38f9fb904bef"
     }
   ]
 }
